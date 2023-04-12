@@ -1,0 +1,9 @@
+api\test\DataDrivenTest.class
+api\utilities\DataProviderClass.class
+api\test\UserTestPropertiesFile.class
+api\endpoints\UserEndpoints.class
+api\test\UserTest.class
+api\utilities\ExcelUtility.class
+api\payloads\User.class
+api\endpoints\UserEndpointsProperties.class
+api\endpoints\Routes.class

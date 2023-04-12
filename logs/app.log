@@ -23,3 +23,18 @@
 [INFO ] 2023-04-13 02:26:20.844 [main] UserTest - ************updating user**************
 [INFO ] 2023-04-13 02:26:22.928 [main] UserTest - ************deleting user**************
 [INFO ] 2023-04-13 02:26:24.002 [main] UserTest - ************user is deleted **************
+[INFO ] 2023-04-13 03:13:40.922 [main] UserTest - ************creating user**************
+[INFO ] 2023-04-13 03:13:44.289 [main] UserTest - ************get user**************
+[INFO ] 2023-04-13 03:13:45.372 [main] UserTest - ************updating user**************
+[INFO ] 2023-04-13 03:13:47.651 [main] UserTest - ************deleting user**************
+[INFO ] 2023-04-13 03:13:48.780 [main] UserTest - ************user is deleted **************
+[INFO ] 2023-04-13 04:57:47.019 [main] UserTest - ************creating user**************
+[INFO ] 2023-04-13 04:57:51.031 [main] UserTest - ************get user**************
+[INFO ] 2023-04-13 04:57:52.102 [main] UserTest - ************updating user**************
+[INFO ] 2023-04-13 04:57:54.322 [main] UserTest - ************deleting user**************
+[INFO ] 2023-04-13 04:57:55.363 [main] UserTest - ************user is deleted **************
+[INFO ] 2023-04-13 04:58:58.090 [main] UserTest - ************creating user**************
+[INFO ] 2023-04-13 04:59:01.438 [main] UserTest - ************get user**************
+[INFO ] 2023-04-13 04:59:02.473 [main] UserTest - ************updating user**************
+[INFO ] 2023-04-13 04:59:04.648 [main] UserTest - ************deleting user**************
+[INFO ] 2023-04-13 04:59:05.785 [main] UserTest - ************user is deleted **************

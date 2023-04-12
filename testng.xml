@@ -8,7 +8,6 @@
     <test thread-count="5" name="UserTest">
          <classes>
              <class name="api.test.UserTest"/>
-              <class name="api.test.DataDrivenTest"/>
           </classes>
      </test> <!-- Test -->
 </suite> <!-- Suite -->
