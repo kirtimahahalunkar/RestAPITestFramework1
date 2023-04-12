@@ -1,0 +1,25 @@
+[INFO ] 2023-04-13 01:40:58.899 [main] UserTest - ************creating user**************
+[INFO ] 2023-04-13 01:41:03.101 [main] UserTest - ************get user**************
+[INFO ] 2023-04-13 01:41:04.255 [main] UserTest - ************updating user**************
+[INFO ] 2023-04-13 01:41:06.446 [main] UserTest - ************deleting user**************
+[INFO ] 2023-04-13 01:41:07.575 [main] UserTest - ************user is deleted **************
+[INFO ] 2023-04-13 01:52:02.613 [main] UserTestPropertiesFile - ************creating user**************
+[INFO ] 2023-04-13 01:52:07.033 [main] UserTestPropertiesFile - ************get user**************
+[INFO ] 2023-04-13 01:52:08.139 [main] UserTestPropertiesFile - ************updating user**************
+[INFO ] 2023-04-13 01:52:10.279 [main] UserTestPropertiesFile - ************deleting user**************
+[INFO ] 2023-04-13 01:52:11.315 [main] UserTestPropertiesFile - ************user is deleted **************
+[INFO ] 2023-04-13 02:04:31.658 [main] UserTest - ************creating user**************
+[INFO ] 2023-04-13 02:04:35.146 [main] UserTest - ************get user**************
+[INFO ] 2023-04-13 02:04:36.275 [main] UserTest - ************updating user**************
+[INFO ] 2023-04-13 02:04:38.398 [main] UserTest - ************deleting user**************
+[INFO ] 2023-04-13 02:04:39.446 [main] UserTest - ************user is deleted **************
+[INFO ] 2023-04-13 02:09:04.478 [main] UserTest - ************creating user**************
+[INFO ] 2023-04-13 02:09:08.460 [main] UserTest - ************get user**************
+[INFO ] 2023-04-13 02:09:09.567 [main] UserTest - ************updating user**************
+[INFO ] 2023-04-13 02:09:11.715 [main] UserTest - ************deleting user**************
+[INFO ] 2023-04-13 02:09:12.792 [main] UserTest - ************user is deleted **************
+[INFO ] 2023-04-13 02:26:16.196 [main] UserTest - ************creating user**************
+[INFO ] 2023-04-13 02:26:19.752 [main] UserTest - ************get user**************
+[INFO ] 2023-04-13 02:26:20.844 [main] UserTest - ************updating user**************
+[INFO ] 2023-04-13 02:26:22.928 [main] UserTest - ************deleting user**************
+[INFO ] 2023-04-13 02:26:24.002 [main] UserTest - ************user is deleted **************

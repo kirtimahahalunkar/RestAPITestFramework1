@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  UserTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UserTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 13 02:04:30 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40669 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser7</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1009, testeruser9, phoebe, lastname9, i@gmail.com, 1234575, test@9</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1008, testeruser8, joey, lastname8, h@gmail.com, 1234574, test@8</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.UserTest.testPostUser()'><b>testPostUser</b><br>Test class: api.test.UserTest</td>
+<td></td>
+<td>3</td>
+<td>api.test.UserTest@4659191b</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser3</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1006, testeruser6, Chandler, lastname6, f@gmail.com, 1234572, test@6</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser5</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser9</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1001, testeruser1, John, lastname1, a@gmail.com, 1234567, test@1</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.UserTest.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.test.UserTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.UserTest@4659191b</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser6</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1004, testeruser4, Raj, lastname4, d@gmail.com, 1234570, test@4</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.UserTest.testPutUser()'><b>testPutUser</b><br>Test class: api.test.UserTest</td>
+<td></td>
+<td>2</td>
+<td>api.test.UserTest@4659191b</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser8</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser1</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.UserTest.testGetUser()'><b>testGetUser</b><br>Test class: api.test.UserTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.UserTest@4659191b</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1007, testeruser7, Monica, lastname7, g@gmail.com, 1234573, test@7</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1002, testeruser2, Kim, lastname2, b@gmail.com, 1234568, test@2</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1003, testeruser3, Pam, lastname3, c@gmail.com, 1234569, test@3</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser4</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testPostUserDD()'><b>testPostUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: 1005, testeruser5, Sheldon, lastname5, e@gmail.com, 1234571, test@5</td>
+<td></td>
+<td>2</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+<tr>
+<td title='api.test.DataDrivenTest.testDeleteUserDD()'><b>testDeleteUserDD</b><br>Test class: api.test.DataDrivenTest<br>Parameters: testeruser2</td>
+<td></td>
+<td>1</td>
+<td>api.test.DataDrivenTest@4efac082</td></tr>
+</table><p>
+</body>
+</html>
